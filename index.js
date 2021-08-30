@@ -5,7 +5,7 @@ const app = express()
 
 app.use(compression());
 require("dotenv").config();
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 const cors = require('cors')
 const bodyParser = require('body-parser')
 app.use(express.static('public'));
