@@ -25,7 +25,7 @@ const router = require("./routes");
 router(app, "/news/api");
 
 app.get("*", (req, res) => {
-  res.send("Not Found !")
+  res.send("Welcome !")
 })
 
 app.listen(port, () => {
