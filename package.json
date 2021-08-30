@@ -1,0 +1,34 @@
+{
+  "name": "news-server",
+  "version": "1.0.0",
+  "description": "news App Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "nodemon --exec mocha"
+  },
+  "author": "irvan junaidi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "newrelic": "^8.1.0",
+    "pg": "^8.6.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "chai-param": "^0.1.2",
+    "mocha": "^8.4.0",
+    "sinon": "^11.1.1"
+  }
+}
