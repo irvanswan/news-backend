@@ -5,7 +5,7 @@ const responseMessage = require("../helpers/responseMessage");
 const Validation = require('../helpers/Validation');
 
 const {responseEmpty, responseCreate, responseServerError, responseBadRequest} = responseMessage
-const {getAllNews, getById, getByTitleAndId, insert} = newsQuery
+const {getAllNews, getById, getByTitleAndId, insert, getTags} = newsQuery
 const { isFilled } = Validation
 
 const newsModel = {
@@ -279,6 +279,11 @@ const newsModel = {
           }
         })
       }
+    })
+  },
+  getTags : (req)=>{
+    return new Promise((resolve, reject)=>{
+      db.query()
     })
   }
 };

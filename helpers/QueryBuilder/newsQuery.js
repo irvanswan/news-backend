@@ -18,6 +18,9 @@ const newsQuery = {
     },
     getByTitleAndId : ({id_user, title}, field)=>{
         return `SELECT ${field} FROM ${table} WHERE id_user = ${id_user} AND title = '${title}'`;
+    },
+    getTags : (field = '*')=>{
+        retunr `SELECT ${field} FROM news GROUP BY tags`
     }
 }
 
