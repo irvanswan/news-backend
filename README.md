@@ -7,6 +7,9 @@
 1. Node JS v14.15.4
 2. Postgre SQL (database management)
 
+## Documentation
+1. [Query Optimation](https://glorious-search-1b3.notion.site/ADVANCE-WEEK-4-Optimation-query-Ruesable-Component-S-O-L-I-D-backend-news-app-2c6aeabd9446413799a54ac198e915e0)
+
 ## LIBRARY
 1.  Express JS
 2.  library Multer (for uploading file)
